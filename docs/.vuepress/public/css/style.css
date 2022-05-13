@@ -1,0 +1,15 @@
+/*.navbar .site-name {*/
+/*    font-size: 1.3rem;*/
+/*    font-weight: 600;*/
+/*    color: #2c3e50;*/
+/*    position: relative;*/
+/*}*/
+#app .navbar .site-name span :before{
+    display: inline-block;
+    content: '';
+    width: 3rem;
+    height: 2.4rem;
+    background: url('../img/favicon.png') no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
