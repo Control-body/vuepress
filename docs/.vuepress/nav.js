@@ -12,8 +12,8 @@ module.exports = [
     {
         text: 'java', link: '/baodian/',
         items: [
-            {text: '初级开发篇', link: '/baodian/zero/'},
-            {text: '中高进阶篇', link: '/baodian/high/'},
+            {text: 'java基础', link: '/baodian/zero/'},
+            {text: 'java多线程', link: '/baodian/high/'},
         ]
     },
     {
