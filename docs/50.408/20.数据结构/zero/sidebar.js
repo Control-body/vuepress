@@ -14,11 +14,4 @@ module.exports = [      // 侧边栏
                         '/baodian/zero/notes/two',     //guide/notes/one.md
                     ]
                 },
-                {
-                    title:'慕课wiki图书馆项目',
-                    collapsable: true,
-                    children:[
-                        '/baodian/zero/notes/慕课wiki图书馆项目',     //guide/notes/one.md
-                    ]
-                }
             ]
