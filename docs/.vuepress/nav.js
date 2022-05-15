@@ -10,10 +10,10 @@ module.exports = [
         text: '首页', link: '/',
     },
     {
-        text: 'java', link: '/baodian/',
+        text: '语言', link: '/10.语言/',
         items: [
-            {text: 'java基础', link: '/baodian/zero/' },
-            {text: 'java多线程', link: '/baodian/high/'},
+            {text: 'java', link: '/10.语言/00.java/' },
+            {text: 'C', link: '/10.语言/10.c/'},
         ]
     },
     // 下拉框 分类

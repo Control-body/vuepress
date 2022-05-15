@@ -1,6 +1,6 @@
 module.exports = {
-    title: '知码学院',
-    description: '君哥带你上王者',
+    title: 'Control.',
+    description: '去发光,而不是被照亮',
     dest: './dist',   //在build 的时候 会默认的创建文件  在.vuepress
     port: '7777',
     head: [
