@@ -24,7 +24,17 @@ module.exports = [      // 侧边栏
                     title:'TCPIP',
                     collapsable: true,
                     children:[
-                        '/baodian/high/notes/TCPIP',     //guide/notes/one.md
+                        '/baodian/high/notes/TCPIP',
+                        '/baodian/high/notes/TCPIP2',
+                        '/baodian/high/notes/TCPIP3', //guide/notes/one.md
+                    ]
+                },
+                {
+                    title:'Test',
+                    collapsable: true,
+                    children:[
+                        '/baodian/high/notes/MdTest',
+                        //guide/notes/one.md
                     ]
                 }
             ]

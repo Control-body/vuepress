@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 # 1、Ajax快速入门
 
 ## 1.1、AJAX介绍

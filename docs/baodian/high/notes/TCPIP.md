@@ -1,10 +1,10 @@
 ---
-title: TCP 协议为什么握手是 3 次，挥手却是 4 次？
-date: 2022-04-01 16:46:20.132
-updated: 2022-04-29 10:41:59.239
-url: /archives/tcpxie-yi-wei-shen-me-wo-shou-shi-3ci--hui-shou-que-shi-4ci-
-categories: 计网
-tags: 
+title:  TCP 协议
+navbar: false
+tags:   
+- tcp
+- xixi
+
 ---
 
    TCP 和 UDP 是今天应用最广泛的传输层协议，拥有最核心的垄断地位。今天互联网的整个**传输层**，几乎都是基于这两个协议打造的。无论是应用开发、框架设计选型、做底层和优化，还是定位线上问题，只要碰到网络，就逃不开 TCP 协议相关的知识。在面试中 TCP 一直是一个高频考察内容，外加 TCP 关联的知识比较多，因此面试题五花八门。

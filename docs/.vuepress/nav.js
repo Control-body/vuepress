@@ -12,15 +12,22 @@ module.exports = [
     {
         text: 'java', link: '/baodian/',
         items: [
-            {text: 'java基础', link: '/baodian/zero/'},
+            {text: 'java基础', link: '/baodian/zero/' },
             {text: 'java多线程', link: '/baodian/high/'},
         ]
     },
+    // 下拉框 分类
     {
         text: '算法', link: '/baodian/',
         items: [
-            {text: '初级开发篇', link: '/baodian/zero/'},
-            {text: '中高进阶篇', link: '/baodian/high/'},
+            { text: 'Group1', items: [
+                    { text: 'Group11',link: '/baodian/zero/'},
+                    { text: 'Group22',link: '/baodian/high/'}
+                ] },
+            { text: 'Group2', items: [
+                    { text: 'Group11' , link: '/baodian/zero/'},
+                    { text: 'Group22' ,link: '/baodian/high/'}
+                ] }
         ]
     },
     {
