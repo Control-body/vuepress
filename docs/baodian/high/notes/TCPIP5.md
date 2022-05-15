@@ -1,5 +1,5 @@
 ---
-title:  TCP5 协议
+title:  TCP5 直接deploy
 navbar: false
 tags:   
 - tcp
