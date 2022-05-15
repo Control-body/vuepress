@@ -13,7 +13,7 @@ module.exports = [
         text: '语言', link: '/10.语言/',
         items: [
             {text: 'java', link: '/10.语言/00.java/' },
-            {text: 'C', link: '/10.语言/10.c/'},
+            {text: 'C', link: '/10.语言/10.C/'},
         ]
     },
     // 下拉框 分类
