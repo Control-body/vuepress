@@ -14,19 +14,14 @@ module.exports = [      // 侧边栏
                     ]
                 },
                 {
-                    title:'Ajax',
-                    collapsable: true,
-                    children:[
-                        '/baodian/high/notes/Ajax(黑马)-ajax-hei-ma-',     //guide/notes/one.md
-                    ]
-                },
-                {
                     title:'TCPIP',
                     collapsable: true,
                     children:[
                         '/baodian/high/notes/TCPIP',
                         '/baodian/high/notes/TCPIP2',
-                        '/baodian/high/notes/TCPIP3', //guide/notes/one.md
+                        '/baodian/high/notes/TCPIP3',
+                        '/baodian/high/notes/TCPIP4',
+                        '/baodian/high/notes/TCPIP5',//guide/notes/one.md
                     ]
                 },
                 {

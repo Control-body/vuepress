@@ -7,9 +7,6 @@ module.exports = {
         ['link', {rel: 'icon', href: '/img/favicon.png'}],//加图标
         ['link', {rel: 'stylesheet', href: '/css/style.css'}], //    / 就是表示静态文件的 意思
         ['script', {charset: 'utf-8', src: '/js/main.js'}],
-        // 配置 PWA
-        ['link', { rel: 'manifest', href: '/photo.jpg' }],
-        ['link', { rel: 'apple-touch-icon', href: '/photo.jpg' }],
     ],
     markdown: {
         lineNumbers: true
@@ -21,7 +18,6 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: 'Last Updated',
         searchMaxSuggestoins: 10,
-        serviceWorker: true ,// 是否开启 PWA，
         serviceWorker: {
             updatePopup: {
                 message: "有新的内容.",
@@ -42,13 +38,5 @@ module.exports = {
             sidebarLinkSelector: '.sidebar-link',
             headerAnchorSelector: '.header-anchor'
         },
-        // 更新插件 可以下载到手机
-        '@vuepress/pwa': {
-            serviceWorker: true,
-            updatePopup: {
-                message: "有新的内容更新",
-                buttonText: "刷新"
-            }
-        }
     }
 }
