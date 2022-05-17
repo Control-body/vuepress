@@ -10,7 +10,7 @@ module.exports = [
         text: '首页', link: '/',
     },
     {
-        text: '语言', link: '/10.语言/',
+        text: '语言',
         items: [
             { text: 'java',items: [
                     { text: '面向对象基础',link: '/baodian/zero/'},
@@ -27,7 +27,7 @@ module.exports = [
     },
     // 下拉框 分类
     {
-        text: '算法', link: '/baodian/',
+        text: '算法',
         items: [
             { text: '算法基础', items: [
                     { text: '算法基础',link: '/30.算法/01.算法基础/'},
